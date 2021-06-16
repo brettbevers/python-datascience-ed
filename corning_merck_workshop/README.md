@@ -11,5 +11,9 @@
 
 ## Anaconda Setup
 0. [Install Anaconda.](https://docs.anaconda.com/anaconda/install/index.html)
-1. [Open Anaconda Navigator and launch Jupyter.](https://docs.anaconda.com/anaconda/user-guide/getting-started/#run-python-in-a-jupyter-notebook)
-2. Upload project notebooks on the Notebook Dashboard.
+1. [Open Anaconda Navigator and launch JupyterLab.](https://docs.anaconda.com/anaconda/user-guide/getting-started/#run-python-in-a-jupyter-notebook)
+1. Open a terminal from the launcher tab and run the following commands:
+    * `$ conda install --yes -c conda-forge 'nodejs>=12.0.0'`
+    * `$ jupyter labextension install jupyterlab-plotly`
+    * `$ jupyter labextension install jupyterlab-dash`
+2. Navigate to the project folder in the File sidebar tab. Double-click on a notebook to launch.

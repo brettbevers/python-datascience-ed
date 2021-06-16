@@ -13,8 +13,6 @@
 0. [Install Anaconda.](https://docs.anaconda.com/anaconda/install/index.html)
 1. [Open Anaconda Navigator and launch JupyterLab.](https://docs.anaconda.com/anaconda/user-guide/getting-started/#run-python-in-a-jupyter-notebook)
 1. Open a terminal from the launcher tab and run the following commands:
-    * `$ conda install --yes -c conda-forge 'nodejs>=12.0.0'`
-    * `$ conda install --yes 'jupyter-dash'`
-    * `$ jupyter labextension install jupyterlab-plotly`
-    * `$ jupyter labextension install jupyterlab-dash`
+    * `$ conda install --yes -c conda-forge 'nodejs>=12.0.0' jupyter-dash`
+    * `$ jupyter labextension install jupyterlab-plotly jupyterlab-dash`
 2. Navigate to the project folder in the File sidebar tab. Double-click on a notebook to launch.

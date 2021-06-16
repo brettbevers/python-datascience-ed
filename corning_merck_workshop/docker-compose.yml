@@ -9,5 +9,6 @@ services:
       - JUPYTER_ENABLE_LAB=true
     ports:
       - 8888:8888
+      - 8050:8050
     volumes:
       - ./notebooks:/home/jovyan/work
